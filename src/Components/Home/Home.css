@@ -1,0 +1,113 @@
+.home{
+    display: flex;
+    padding: 60px 50px; 
+}
+
+.home-content h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: yellow;
+    padding: 5px 0px;
+}
+
+.home-content h1{
+    font-size: 400;
+    font-weight: 600;
+    color: #fff;
+    padding: 6px 0px;
+}
+
+.home-content h2{
+    color: #fff;
+}
+
+.home-content span{
+    color: rgb(10,197,10);
+    padding: 5px 0px;
+}
+
+.home-content p{
+    padding: 20px 0px;
+    width: 80%;
+    color: #fff;
+}
+
+/* =====SOCIAL MEDIA ICON STYLES=====*/
+
+.social-media{
+    display: flex;
+    gap: 30px;
+    padding: 10px 0px;
+}
+
+.social-media li{
+    background: blue;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 8px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 10px white);
+    transition: .5s;
+
+    
+}
+
+.social-media li a{
+        color: #fff;
+        font-size: 35px;
+    }
+
+.social-media li:hover{
+    filter: drop-shadow(0px 0px 12px white);
+    scale:1.2;
+}
+
+/*=====BUTTON STYLES=====*/
+
+.button{
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.button .btn{
+    width: 180px;
+    height: 50px;
+    background: rgb(131, 131, 131);
+    border-radius: 35px;
+    font-weight: 600;
+    color: #fff;
+    filter: drop-shadow(0px 0px 7px white);
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+
+.button .btn:hover{
+    scale: 1.2;
+    background: green;
+
+}
+
+navigation{
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: flex;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 10px white;
+}
