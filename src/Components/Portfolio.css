@@ -1,0 +1,17 @@
+button{
+    display: flex;
+    gap: 20px;
+    padding: 60px;
+    background-color: gray;
+    display: block;
+    margin: auto;
+    color:white;
+    border-radius: 5px;
+}
+
+button:hover{
+    scale:1.5;
+    background: white;
+    transition: .5s;
+    color:gray;
+}

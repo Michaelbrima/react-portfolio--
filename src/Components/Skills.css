@@ -1,0 +1,28 @@
+h2 {
+    text-align: center;
+}
+
+tbody {
+    float: left;
+    background-color: gray;
+    border-radius: 2px;
+    border-width: 2px;
+    border: white;
+}
+
+table {
+    margin: auto;
+    scale:1.5;
+    margin-top: 50px;
+}
+
+#tables {
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+}
+
+td{
+    display: flex;
+    justify-content: center;
+}
