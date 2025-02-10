@@ -5,6 +5,16 @@ const Portfolio = () => {
     return (
         <section id="portfolio" className='portfolio'>
             <h2>My Portfolio:</h2>
+                        <button>Ancienttrade.com
+                <br/>
+                <br/>
+                <p>Developed an e-commerce website that includes a catalog of headwear, clothes, and other garments. </p>
+                <br/>
+                <p>Skills Used: HTML · CSS · JavaScript · PHP</p>
+                <br/>
+                    <p>Link: https://ancienttrade.michaelnbrima.com/</p>
+            </button>
+            <br/>
             <button>New Word Dictionary Database
                 <br/>
                 <br/>
