@@ -36,6 +36,7 @@ const Skills = () => {
                 <tr> JSON </tr>
                 <tr> Fetch Requests </tr>
                 <tr> React.js </tr>
+                <tr> Typescript </tr>
             </tbody>
         </table>
     </div>
