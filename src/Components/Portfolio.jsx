@@ -5,6 +5,17 @@ const Portfolio = () => {
     return (
         <section id="portfolio" className='portfolio'>
             <h2>My Portfolio:</h2>
+                        <button>Multi-Tab-Browser
+                <br/>
+                <br/>
+                <p>Developed a Web Application that allows users to create multiple browsers through links and titles that remain after
+                refreshing the page. </p>
+                <br/>
+                <p>Skills Used: HTML · CSS · JavaScript · React · Typescript</p>
+                <br/>
+                    <p>Link: https://michaelbrima.github.io/multi-tab-browser/</p>
+            </button>
+            <br/>
                         <button>Ancienttrade.com
                 <br/>
                 <br/>
